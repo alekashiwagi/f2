@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center p-3">
+        <h1>PetShop da Alegria</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#produtos">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="p-4">
+        <!-- Carrossel de imagens dos produtos -->
+        <div id="carouselProdutos" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores do carrossel -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselProdutos" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselProdutos" data-slide-to="1"></li>
+                <li data-target="#carouselProdutos" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper para os slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    ![Brindes para pet shop: 4 modelos e como escolher](https://bing.com/th?id=OIP.VaZWTL-dvMrY04ZGrAz36AHaE7)
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ração Seca Premium</h5>
+                        <p>Alta qualidade nutricional para seu pet. Valor: R$120,00.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    ![Dicas para organizar os produtos em seu pet shop | Blog Nuvem Vet](https://bing.com/th?id=OIP.c7Hu_zivfyRcVhC-DykUuwHaE8)
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ração Úmida Sabor Frango</h5>
+                        <p>Delicioso patê para uma refeição saborosa. Valor: R$15,00.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    ![Dicas para escolher os melhores produtos para pet shop - Kelldrin](https://bing.com/th?id=OIP.JIsQfUPf0o-6awoejtCxEQHaE7)
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kit Higiene para Cães</h5>
+                        <p>Tudo que você precisa para manter seu cão limpo e feliz. Valor: R$80,00.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles do carrossel -->
+            <a class="carousel-control-prev" href="#carouselProdutos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselProdutos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="p-4">
+        <!-- Descrição e valor dos serviços -->
+        <div class="service-item">
+            <h3>Banho para Animais de Pequeno Porte</h3>
+            <p>Um banho relaxante e completo para seu pet de pequeno porte. Valor: R$40,00.</p>
+        </div>
+        
+    </section>
+
+    <!-- Formulário de Cadastro -->
+    <section id="cadastro" class="p-4">
+        <form>
+            <!-- Campos do formulário -->
+            <div class="form-group">
+                <label for="nomeCliente">Nome do Cliente:</label>
+                <input type="text" class="form-control" id="nomeCliente" placeholder="Digite seu nome">
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-primary text-white text-center p-3">
+        <p>© 2024 PetShop da Alegria. Todos os direitos reservados.</p>
+        <!-- Informações legais e links de navegação -->
+    </footer>
+
+    <!-- Bootstrap e JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
